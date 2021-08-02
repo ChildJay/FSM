@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(Windows) 启动",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "e:\\WJ\\AboutLearn\\MY\\FiniteStateMachineO1Demo-master\\FSM_Elevator_demo.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:\\WJ\\AboutLearn\\MY\\FiniteStateMachineO1Demo-master",
+      "environment": [],
+      "program": "e:\\WJ\\AboutLearn\\MY\\FiniteStateMachineO1Demo-master\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false
+    }
+  ]
+}
